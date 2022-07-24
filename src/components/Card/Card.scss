@@ -1,0 +1,62 @@
+@import '../../styles/variables';
+
+.card {
+  font-family: 'Roboto Mono';
+  margin: 10px;
+  min-height: 150px;
+  min-width: 280px;
+  border: 10px solid $ivory;
+  border-radius: 20px;
+  background-color: $ivory;
+
+  &__image {
+    object-fit:cover;
+    object-position: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    float: left;
+  }
+
+  &__description {
+    text-align: center;
+  }
+
+  &__title {
+    text-transform: capitalize;
+    color: $bg-color;
+  }
+
+  &__price {
+    color: $orange;
+  }
+
+  &__wrap-button {
+    text-align: right;
+  }
+
+  &__button-buy {
+    height: 40px;
+    width: 80px;
+    color: $orange;
+
+    text-transform: uppercase;
+    font-weight: 700;
+
+    background-color: $black-color;
+    border: 1px solid $black-color;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px grey;
+
+    transition: transform .2s;
+
+    &:hover {
+      color: $ivory;
+    }
+
+    &:active {
+      transform: translateX(3px);
+      box-shadow: none;
+     }
+  }
+}

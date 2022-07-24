@@ -1,0 +1,193 @@
+@import '../../styles/variables';
+
+.cart {
+  display: flex;
+  padding: 20px;
+  gap: 40px;
+
+  &__info {
+    flex-grow: 1;
+    padding: 15px;
+    color: $brown-text;
+    background-color: $block-color;
+    height: fit-content;
+    min-width: 200px;
+    border-radius: 20px;
+    align-items: center;
+  }
+
+  &__orders {
+    flex-grow: 3;
+    padding: 15px;
+    background-color: $block-color;
+    min-height: fit-content;
+    border-radius: 20px;
+  }
+
+  &__form-field {
+    margin: 20px 5px;
+  }
+
+  &__input {
+    width: 100%;
+    outline: 0;
+    border: 0 solid transparent;
+    border-bottom: 2px solid $ivory;
+    background-color: transparent;
+
+    &:focus {
+      background-color: transparent;
+    }
+  }
+
+  &__total {
+    color: $brown-text;
+  }
+
+  &__error {
+    font-weight: 600;
+    color: $red-color;
+  }
+
+  &__wrap__button {
+    margin: 0 auto;
+  }
+
+  &__submit-button {
+    height: 40px;
+    width: 80px;
+    color: $block-color;
+
+    text-transform: uppercase;
+    font-weight: 700;
+
+    background-color: $black-color;
+    border: 1px solid $black-color;
+    border-radius: 12px;
+    box-shadow: 2px 2px 3px grey;
+
+    transition: transform .2s;
+
+    &:hover {
+      color: $ivory;
+    }
+
+    &:active {
+      transform: translateX(2px);
+      box-shadow: none;
+      }
+
+  }
+}
+
+.orders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardInCart {
+  font-family: 'Roboto Mono';
+  margin: 10px;
+  height: 200px;
+  min-width: 280px;
+  border: 10px solid $ivory;
+  border-radius: 20px;
+  background-color: $ivory;
+
+  &__image {
+    object-fit:cover;
+    object-position: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    float: left;
+  }
+
+  &__description {
+    text-align: center;
+  }
+
+  &__title {
+    text-transform: capitalize;
+    color: $brown-text;
+  }
+
+  &__price {
+    color: $orange;
+  }
+
+  &__wrap-button {
+    text-align: right;
+  }
+
+}
+
+.qty {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__count {
+    display: flex;
+    border: 3px solid $light-yellow;
+    border-radius: 35px;
+
+    & > button {
+      color: $black-color;
+      background-color: $light-yellow;
+      border: none;
+      font-size: 20px;
+    }
+  }
+
+  &__decrease {
+    padding: 10px 5px 10px 15px;
+    border-radius: 35px 0 0 35px;
+  }
+
+  &__increase {
+    padding: 10px 15px 10px 5px;
+    border-radius: 0 35px 35px 0;
+  }
+
+  &__delete {
+    height: 40px;
+    width: 80px;
+    color: $red-color;
+
+    text-transform: uppercase;
+    font-weight: 700;
+
+    background-color: $black-color;
+    border: 1px solid $black-color;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px grey;
+
+    &:hover {
+      color: $ivory;
+    }
+
+    &:active {
+      transform: translateX(3px);
+      box-shadow: none;
+     }
+  }
+
+  &__input {
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    background-color: $light-yellow;
+    color: $black-color;
+    width: 30px;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import 'styles/variables';
+
+.App {
+  &__tabs {
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    margin-left: 40px;
+  }
+
+  &__button {
+    padding: 5px;
+    color: $white-color;
+    text-decoration: none;
+    font-size: 30px;
+    border: 2px dashed $white-color;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px $black-color;
+
+    transition: transform .2s;
+
+     &:hover {
+      color: $block-color;
+      border: 2px solid $block-color
+     }
+
+     &:active {
+      transform: translateX(5px);
+      box-shadow: none;
+     }
+  }
+}

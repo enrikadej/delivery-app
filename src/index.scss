@@ -1,0 +1,14 @@
+@import 'styles/variables';
+
+body {
+  margin: 0;
+  background-color: $bg-color;
+  font-size: 18px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+}
+
+button {
+  cursor: pointer;
+}
+

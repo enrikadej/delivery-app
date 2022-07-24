@@ -1,0 +1,315 @@
+{
+  "shops": [
+    {
+      "id": 1,
+      "storeName": "McDonald's",
+      "products": [
+        {
+          "id": 1,
+          "title": "big burger",
+          "price": 399,
+          "image": "https://i.pinimg.com/564x/90/4f/b0/904fb0a02355909871bd13512bddfbf2.jpg",
+          "qty": 0
+        },
+        {
+          "id": 2,
+          "title": "cheese burger",
+          "price": 360,
+          "image": "https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_2560%2Cc_limit/Smashburger-recipe-120219.jpg",
+          "qty": 0
+        },
+        {
+          "id": 3,
+          "title": "fish burger",
+          "price": 360,
+          "image": "https://i.pinimg.com/564x/3d/d0/ec/3dd0ec371308e0fd97ddd8d401f58f1f.jpg",
+          "qty": 0
+        },
+        {
+          "id": 4,
+          "title": "shrimp burger",
+          "price": 360,
+          "image": "https://www.nazimtruro.co.uk/site/assets/images/uploads/97_2_55ed8c8a3165_o.jpg",
+          "qty": 0
+        },
+        {
+          "id": 5,
+          "title": "chicken burger",
+          "price": 360,
+          "image": "https://i.pinimg.com/564x/f4/0f/d6/f40fd6ed0c5af863d633bdfd2a90de7c.jpg",
+          "qty": 0
+        },
+        {
+          "id": 6,
+          "title": "royal burger",
+          "price": 360,
+          "image": "https://i.pinimg.com/564x/8f/93/26/8f932685d1ddc9b9777df485306ba94a.jpg",
+          "qty": 0
+        },
+        {
+          "id": 7,
+          "title": "chicken roll",
+          "price": 360,
+          "image": "https://i.pinimg.com/564x/fd/60/d2/fd60d2eae261ade0d3e1902068be5b00.jpg",
+          "qty": 0
+        },
+        {
+          "id": 8,
+          "title": "shrimp roll",
+          "price": 360,
+          "image": "https://3.bp.blogspot.com/-2ai6xyUFqdI/VpAC2HiXTTI/AAAAAAAADSw/rdI_mW_EQpM/s1600/%25D0%25A8%25D1%2580%25D0%25B8%25D0%25BC%25D0%25BF%2B%25D1%2580%25D0%25BE%25D0%25BB%25D0%25BB%2B%25D0%25B2%2B%25D0%259C%25D0%25B0%25D0%25BA%25D0%25B4%25D0%25BE%25D0%25BD%25D0%25B0%25D0%25BB%25D0%25B4%25D1%2581.png",
+          "qty": 0
+        },
+        {
+          "id": 9,
+          "title": "coca-cola",
+          "price": 360,
+          "image": "https://i.pinimg.com/564x/ae/2d/65/ae2d65d73a98f127fdc0b320b2482c8b.jpg",
+          "qty": 0
+        },
+        {
+          "id": 10,
+          "title": "sprite",
+          "price": 360,
+          "image": "https://i.pinimg.com/564x/da/29/54/da29549b7fd367669b7d8502d9d0028c.jpg",
+          "qty": 0
+        },
+        {
+          "id": 11,
+          "title": "fanta",
+          "price": 360,
+          "image": "https://i.pinimg.com/564x/e9/69/f2/e969f298dc5782e5867ec222c793d1ee.jpg",
+          "qty": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "storeName": "Salateria",
+      "products": [
+        {
+          "id": 12,
+          "title": "cezar",
+          "price": 399,
+          "image": "https://assets.dots.live/misteram-public/d0267e5b47060e699003407b53385f9c-826x0.png",
+          "qty": 0
+        },
+        {
+          "id": 13,
+          "title": "gusto",
+          "price": 360,
+          "image": "https://assets.dots.live/misteram-public/9700b588fd3b7ea7ab2c99bd9c4c5cd3-826x0.png",
+          "qty": 0
+        },
+        {
+          "id": 14,
+          "title": "Kamaro",
+          "price": 360,
+          "image": "https://assets.dots.live/misteram-public/6bee144a88492ee4d9b754b72d92798e-826x0.png",
+          "qty": 0
+        },
+        {
+          "id": 15,
+          "title": "Carbonara",
+          "price": 360,
+          "image": "https://assets.dots.live/misteram-public/32139ee78faff71d6322fcf737b9ac2d-826x0.png",
+          "qty": 0
+        },
+        {
+          "id": 16,
+          "title": "Simple",
+          "price": 360,
+          "image": "https://assets.dots.live/misteram-public/9d109707e1d0ddaaf1f60868886e9ec7-826x0.png",
+          "qty": 0
+        },
+        {
+          "id": 17,
+          "title": "Fresh orange",
+          "price": 360,
+          "image": "https://assets.dots.live/misteram-public/9f9be32fed09d79803994319380345ab-826x0.png",
+          "qty": 0
+        },
+        {
+          "id": 18,
+          "title": "Fresh apple",
+          "price": 360,
+          "image": "https://assets.dots.live/misteram-public/8c04c9b6d6933dacd81f251317e0cfb6-826x0.png",
+          "qty": 0
+        },
+        {
+          "id": 19,
+          "title": "Fresh cherry",
+          "price": 360,
+          "image": "https://assets.dots.live/misteram-public/d3d68fbed90ee9975486602a7c21d127-826x0.png",
+          "qty": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "storeName": "Evrasia",
+      "products": [
+        {
+          "id": 20,
+          "title": "Baked set",
+          "price": 399,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/tIu49j6rCXcOQ005x9uvhp3vST7WyUvtDVoUmj8p.jpg",
+          "qty": 0
+        },
+        {
+          "id": 21,
+          "title": "Family set",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/glpNIL7dwZ0uAYF2XV9PyGJCLweBRviyVvNtAcFT.jpg",
+          "qty": 0
+        },
+        {
+          "id": 22,
+          "title": "Stugna",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/EPmEiK6Ved96fPQDdrN8sgm699ePZ7BP2eeOdIh5.jpg",
+          "qty": 0
+        },
+        {
+          "id": 23,
+          "title": "Brownie",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/C23F2iqNMYJdWb6wsYxf2zFRKswxUaMwML8S0A7X.jpg",
+          "qty": 0
+        },
+        {
+          "id": 24,
+          "title": "Waffles",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/16291224190.jpg",
+          "qty": 0
+        },
+        {
+          "id": 25,
+          "title": "Nagasaki Maki",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/nagasaki_maki.jpg",
+          "qty": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "storeName": "Healthy leaf",
+      "products": [
+        {
+          "id": 26,
+          "title": "Greek salad",
+          "price": 399,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/16236494820.jpg",
+          "qty": 0
+        },
+        {
+          "id": 27,
+          "title": "Chuka Sarada",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/Chukka-sarada.jpg",
+          "qty": 0
+        },
+        {
+          "id": 28,
+          "title": "Shrimp popcorn",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/16184614550.jpg",
+          "qty": 0
+        },
+        {
+          "id": 29,
+          "title": "Baked mussels",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/Igay-yaki.jpg",
+          "qty": 0
+        },
+        {
+          "id": 30,
+          "title": "tropical sauer",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/FRlvHwRUAXGVfxGMgC5uhMQ2iaHCGTJkZa8TPqWi.jpg",
+          "qty": 0
+        },
+        {
+          "id": 31,
+          "title": "freshness",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/16313448890.jpg",
+          "qty": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "storeName": "Mafia",
+      "products": [
+        {
+          "id": 32,
+          "title": "Carpicciosa",
+          "price": 399,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/xqvuQdVhwkjLem7ivvreUunXAzaAJWfMeRfrfWrF.jpg",
+          "qty": 0
+        },
+        {
+          "id": 33,
+          "title": "Peperoni",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/s5kUwIBI4QVmYIb0KkuLp8B1YcZtGCQVSCoKl2Lb.jpg",
+          "qty": 0
+        },
+        {
+          "id": 34,
+          "title": "Margarita",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/VAFA1QqFFnnz44WAjwh84wLVIcpJ41YgYNzh0iPK.jpg",
+          "qty": 0
+        },
+        {
+          "id": 35,
+          "title": "Carbonara",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/iLWCPM9GrbHqSZWkZ8WBWnS5g1gpvjegbmYkY1MD.jpg",
+          "qty": 0
+        },
+        {
+          "id": 36,
+          "title": "Hawaiian BBQ",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/V4ZmfoKkmeEjafJrrR7IopMPXows3EhTYCCb816V.jpg",
+          "qty": 0
+        },
+        {
+          "id": 37,
+          "title": "Four cheese",
+          "price": 360,
+          "image": "https://evrasia.in.ua/storage/data/750_0/products/q4cVYsqf33XGWk8P9g7eF06pHoI3TNeQhWzixG9B.jpg",
+          "qty": 0
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user": {
+        "name": "Adam Sandler",
+        "email": "adamdandler@gmail.com",
+        "phone": "+380 67 123 45 45",
+        "address": "Vinnytsa"
+      },
+      "foodstuff": []
+    },
+    {
+      "id": 2,
+      "user": {
+        "name": "Tony Stark",
+        "email": "tonystark@gmail.com",
+        "phone": "+380 67 123 45 45",
+        "address": "NY"
+      },
+      "foodstuff": []
+    }
+  ]
+}
