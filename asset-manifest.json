@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/delivery-app/static/css/main.fd046f43.chunk.css",
-    "main.js": "/delivery-app/static/js/main.6a7b864a.chunk.js",
-    "main.js.map": "/delivery-app/static/js/main.6a7b864a.chunk.js.map",
-    "runtime-main.js": "/delivery-app/static/js/runtime-main.46702685.js",
-    "runtime-main.js.map": "/delivery-app/static/js/runtime-main.46702685.js.map",
-    "static/js/2.5f07229d.chunk.js": "/delivery-app/static/js/2.5f07229d.chunk.js",
-    "static/js/2.5f07229d.chunk.js.map": "/delivery-app/static/js/2.5f07229d.chunk.js.map",
-    "index.html": "/delivery-app/index.html",
-    "static/css/main.fd046f43.chunk.css.map": "/delivery-app/static/css/main.fd046f43.chunk.css.map",
-    "static/js/2.5f07229d.chunk.js.LICENSE.txt": "/delivery-app/static/js/2.5f07229d.chunk.js.LICENSE.txt"
+    "main.css": "/delivery_app/static/css/main.fd046f43.chunk.css",
+    "main.js": "/delivery_app/static/js/main.6a7b864a.chunk.js",
+    "main.js.map": "/delivery_app/static/js/main.6a7b864a.chunk.js.map",
+    "runtime-main.js": "/delivery_app/static/js/runtime-main.ffa905d7.js",
+    "runtime-main.js.map": "/delivery_app/static/js/runtime-main.ffa905d7.js.map",
+    "static/js/2.5f07229d.chunk.js": "/delivery_app/static/js/2.5f07229d.chunk.js",
+    "static/js/2.5f07229d.chunk.js.map": "/delivery_app/static/js/2.5f07229d.chunk.js.map",
+    "index.html": "/delivery_app/index.html",
+    "static/css/main.fd046f43.chunk.css.map": "/delivery_app/static/css/main.fd046f43.chunk.css.map",
+    "static/js/2.5f07229d.chunk.js.LICENSE.txt": "/delivery_app/static/js/2.5f07229d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.46702685.js",
+    "static/js/runtime-main.ffa905d7.js",
     "static/js/2.5f07229d.chunk.js",
     "static/css/main.fd046f43.chunk.css",
     "static/js/main.6a7b864a.chunk.js"
