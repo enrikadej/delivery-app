@@ -1,6 +1,7 @@
 import { Order } from '../react-app-env.d';
 
-const URL = 'http://localhost:3001';
+// const URL = 'http://localhost:3001';
+const URL = 'https://delivery-server-app.herokuapp.com/api';
 
 export const getStores = async () => {
   const response = await fetch(`${URL}/shops`);

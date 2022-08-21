@@ -26,11 +26,11 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run dev\"",
+    "start": "node server.js",
+    "test": "concurrently \"npm run server\" \"npm run dev\"",
     "lint": "eslint ./src --fix",
     "dev": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
