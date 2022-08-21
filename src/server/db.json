@@ -310,6 +310,32 @@
         "address": "NY"
       },
       "foodstuff": []
+    },
+    {
+      "id": 3,
+      "user": {
+        "name": "j",
+        "email": "k",
+        "phone": "j",
+        "address": "h"
+      },
+      "foodstuff": [
+        {
+          "id": 4,
+          "title": "shrimp burger",
+          "price": 360,
+          "image": "https://www.nazimtruro.co.uk/site/assets/images/uploads/97_2_55ed8c8a3165_o.jpg",
+          "qty": 1
+        },
+        {
+          "id": 5,
+          "title": "chicken burger",
+          "price": 360,
+          "image": "https://i.pinimg.com/564x/f4/0f/d6/f40fd6ed0c5af863d633bdfd2a90de7c.jpg",
+          "qty": 1
+        }
+      ],
+      "total": 720
     }
   ]
 }

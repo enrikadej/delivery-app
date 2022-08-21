@@ -24,6 +24,7 @@ export const ShoppingCart:React.FC<Props> = ({ cart, actionCart }) => {
   const [total, setTotal] = useState(0);
   const [error, setError] = useState(false);
   const [modalActive, setModalActive] = useState(false);
+  // const [tempCart, setTempCart] = useState<ProductCart[] | null>(null);
 
   const initialValues: MyFormValues = {
     name: '',
@@ -57,13 +58,34 @@ export const ShoppingCart:React.FC<Props> = ({ cart, actionCart }) => {
     actionCart(cart[0], 'empty');
   };
 
+  console.log('card!!!', cart);
+  // add all goods from locale storage, parse in array, add new good, set to local storage
+  // in shopping cart -> get all array of goods -> map
   useEffect(() => {
     const result = cart.reduce((acc, prod) => {
       return acc + (prod.qty * prod.price);
     }, 0);
 
     setTotal(result);
+
+    // localStorage.setItem('cart', JSON.stringify(cart));
+
+    // const rem = localStorage.getItem('cart');
+
+    // if (rem) {
+    //   setTempCart(JSON.parse(rem));
+    // }
   }, [cart]);
+
+  useEffect(() => {
+    const rem = localStorage.getItem('cart');
+
+    console.log(rem, 'component did mount');
+
+    // if (rem) {
+    //   setTempCart(JSON.parse(rem));
+    // }
+  }, []);
 
   const fields = ['name', 'email', 'phone', 'address'];
 

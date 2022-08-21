@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React, { useState } from 'react';
 import './App.scss';
 import {
@@ -17,13 +18,17 @@ export const App: React.FC = () => {
 
     switch (action) {
       case 'add':
+        console.log('add product!');
+        console.log('exist', exist);
         if (exist) {
+          console.log('add product2');
           setShoppingCart(
             shoppingCart.map((item) => (
               item.id === order.id ? { ...exist, qty: exist.qty + 1 } : item
             )),
           );
         } else {
+          console.log('product added');
           setShoppingCart([...shoppingCart, { ...order, qty: +1 }]);
         }
 

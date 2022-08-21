@@ -2,9 +2,8 @@
 # Delivery app
 
 Delivery app with several restaurants. You can order something!
-- [DEMO LINK]()
 
-### Installing
+## Installing
 * Fork and clone this repository
 * Run npm install in your terminal
 * Run npm start
